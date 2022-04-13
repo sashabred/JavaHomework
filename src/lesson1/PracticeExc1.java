@@ -25,7 +25,7 @@ public class PracticeExc1
             System.out.println("");
             System.out.println("---------");
             System.out.println("Упражнение 2:");
-            System.out.println((46+10)*(10/3));
+            System.out.println((46.0+10.0)*(10.0/3.0));
             System.out.println(29*4*(-15));
 
         //Упражнение 3
@@ -33,7 +33,7 @@ public class PracticeExc1
             System.out.println("---------");
             System.out.println("Упражнение 3:");
             int number =10500;
-            double result = (number/10)/10;
+            double result = (number/10.0)/10.0;
             System.out.println(result);
 
         //Упражнение 4

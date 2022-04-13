@@ -5,14 +5,17 @@ public class Calculator {
 // Сумма
 
     public int sum (int a, int b) {
+
         return a+b;
     }
 
     public double sum (double a, double b) {
+
         return a+b;
     }
 
     public long sum (long a, long b) {
+
         return a+b;
     }
 
@@ -23,7 +26,7 @@ public class Calculator {
     }
 
     public double divide (double a, double b) {
-        return a/b;
+        return a*1.0/b;
     }
 
     public long divide (long a, long b) {
@@ -32,27 +35,33 @@ public class Calculator {
 
 //Умножение
     public int mupltiplyNums (int a, int b) {
+
         return a*b;
     }
 
     public double mupltiplyNums (double a, double b) {
+
         return a*b;
     }
 
     public long mupltiplyNums (long a, long b) {
+
         return a*b;
     }
 
 //Вычитание
     public int subtract (int a, int b) {
+
         return a-b;
     }
 
     public double subtract (double a, double b) {
+
         return a-b;
     }
 
     public long subtract (long a, long b) {
+
         return a-b;
     }
 }
