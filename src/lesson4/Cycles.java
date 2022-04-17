@@ -42,9 +42,9 @@ public class Cycles {
         System.out.println("Введите третье число число: ");
         num3 = scan3.nextInt();
 
-        boolean result = ( num1 + num2 == num3 ? true : false);
+        boolean isTrue = ( num1 + num2 == num3 ? true : false);
 
-        System.out.println("Результат: "+ result);
+        System.out.println("Результат: "+ isTrue);
 
     }
 
@@ -64,9 +64,9 @@ public class Cycles {
         System.out.println("Введите третье число число: ");
         num3 = scan3.nextInt();
 
-        boolean result = ( num1 < num2 && num2 <num3 ? true : false);
+        boolean isTrue = ( num1 < num2 && num2 <num3 ? true : false);
 
-        System.out.println("Результат: "+ result);
+        System.out.println("Результат: "+ isTrue);
 
     }
 
@@ -96,8 +96,6 @@ public class Cycles {
                 System.out.println("Массив не содержит числа 1 или 3");
             }
         }
-
     }
-
 
 }
